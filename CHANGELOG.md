@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0](https://github.com/fcoiuri/wpp-formatter/compare/v1.0.0...v1.1.0) (2026-03-22)
+
+### Features
+
+* **editor:** add auto-continue list formatting on enter key ([2c165bf](https://github.com/fcoiuri/wpp-formatter/commit/2c165bf4350101fdff9587a284ed459ecb44b0f3))
+
 ## 1.0.0 (2026-03-22)
 
 ### Features

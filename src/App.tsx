@@ -24,6 +24,47 @@ export default function App() {
   const isLong = charCount > 1000;
   const hasText = text.trim().length > 0;
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>): void => {
+    if (e.key !== 'Enter') return;
+
+    const ta = textareaRef.current;
+    if (!ta) return;
+
+    const { selectionStart, value } = ta;
+
+    const lineStart = value.lastIndexOf('\n', selectionStart - 1) + 1;
+    const lineContent = value.substring(lineStart, selectionStart);
+
+    const bulletMatch = lineContent.match(/^(\s*)([-*])\s(.+)/);
+
+    const numberedMatch = lineContent.match(/^(\s*)(\d+)\.\s(.+)/);
+
+    if (bulletMatch) {
+      e.preventDefault();
+      const [, indent, marker] = bulletMatch;
+      const insertion = `\n${indent}${marker} `;
+      const newValue = value.substring(0, selectionStart) + insertion + value.substring(selectionStart);
+      setText(newValue);
+      requestAnimationFrame(() => {
+        ta.setSelectionRange(selectionStart + insertion.length, selectionStart + insertion.length);
+      });
+      return;
+    }
+
+    if (numberedMatch) {
+      e.preventDefault();
+      const [, indent, num] = numberedMatch;
+      const nextNum = parseInt(num) + 1;
+      const insertion = `\n${indent}${nextNum}. `;
+      const newValue = value.substring(0, selectionStart) + insertion + value.substring(selectionStart);
+      setText(newValue);
+      requestAnimationFrame(() => {
+        ta.setSelectionRange(selectionStart + insertion.length, selectionStart + insertion.length);
+      });
+      return;
+    }
+  };
+
   const handleFormat = useCallback(
     (tool: Tool) => {
       const ta = textareaRef.current;
@@ -195,6 +236,7 @@ export default function App() {
               ref={textareaRef}
               value={text}
               onChange={(e) => setText(e.target.value)}
+              onKeyDown={handleKeyDown}
               placeholder={t('placeholder')}
               aria-label={t('editorLabel')}
               spellCheck

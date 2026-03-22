@@ -1,0 +1,19 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6.5" fill="#075E54"/>
+  <!-- White bubble circle -->
+  <circle cx="16" cy="15" r="10.5" fill="white"/>
+  <!-- Bubble tail -->
+  <polygon points="15.5,23.5 9.5,27.5 16.5,21.5" fill="white"/>
+  <!-- Green fill -->
+  <circle cx="16" cy="15" r="7.8" fill="#25D366"/>
+  <!-- W letter -->
+  <polyline
+    points="10.5,11 13,19 16,14.5 19,19 21.5,11"
+    fill="none"
+    stroke="white"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

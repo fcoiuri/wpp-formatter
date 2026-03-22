@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://wappformatter.app/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://wappformatter.app/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://wappformatter.app/en"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://wappformatter.app/es"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

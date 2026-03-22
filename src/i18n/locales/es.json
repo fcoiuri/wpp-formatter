@@ -1,0 +1,38 @@
+{
+  "appName": "WApp Formatter",
+  "appTagline": "Formatea tus mensajes antes de enviar",
+  "appDescription": "Herramienta gratuita para formatear mensajes de WhatsApp con negrita, cursiva, tachado, código y más. Vista previa en tiempo real.",
+  "editorLabel": "Editor",
+  "previewLabel": "Vista previa",
+  "placeholder": "Escribe tu mensaje aquí...\n\nEjemplos:\n*negrita* _cursiva_ ~tachado~\n`código` o ```bloque de código```\n> cita\n- lista\n1. lista numerada",
+  "copy": "Copiar mensaje",
+  "copied": "¡Copiado!",
+  "clear": "Limpiar",
+  "clearConfirm": "¿Limpiar todo?",
+  "characters": "caracteres",
+  "words": "palabras",
+  "historyTitle": "Historial reciente",
+  "emptyTitle": "Tu mensaje aparece aquí",
+  "emptyDesc": "Escribe en el editor para ver la vista previa formateada como en WhatsApp.",
+  "charWarning": "Mensaje largo — puede dividirse en WhatsApp",
+  "mobileTab": {
+    "editor": "Editor",
+    "preview": "Vista previa"
+  },
+  "toolbar": {
+    "bold": "Negrita",
+    "italic": "Cursiva",
+    "strikethrough": "Tachado",
+    "inlineCode": "Código",
+    "codeBlock": "Bloque mono",
+    "quote": "Cita",
+    "bulletList": "Lista •",
+    "numberedList": "Lista 1.",
+    "text": "texto"
+  },
+  "seo": {
+    "title": "WApp Formatter — Formateador de Mensajes WhatsApp",
+    "description": "Formatea tus mensajes de WhatsApp con negrita, cursiva, tachado, código y listas. Vista previa en tiempo real. Gratis, sin registro.",
+    "keywords": "formateador whatsapp, negrita whatsapp, cursiva whatsapp, formatear mensaje whatsapp"
+  }
+}

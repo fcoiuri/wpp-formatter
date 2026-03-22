@@ -1,0 +1,38 @@
+{
+  "appName": "WApp Formatter",
+  "appTagline": "Formate suas mensagens antes de enviar",
+  "appDescription": "Ferramenta gratuita para formatar mensagens do WhatsApp com negrito, itálico, rasurado, código e muito mais. Pré-visualização em tempo real.",
+  "editorLabel": "Editor",
+  "previewLabel": "Pré-visualização",
+  "placeholder": "Digite sua mensagem aqui...\n\nExemplos:\n*negrito* _itálico_ ~rasurado~\n`código` ou ```bloco de código```\n> citação\n- lista\n1. lista numerada",
+  "copy": "Copiar mensagem",
+  "copied": "Copiado!",
+  "clear": "Limpar",
+  "clearConfirm": "Limpar tudo?",
+  "characters": "caracteres",
+  "words": "palavras",
+  "historyTitle": "Histórico recente",
+  "emptyTitle": "Sua mensagem aparece aqui",
+  "emptyDesc": "Digite no editor ao lado para ver a prévia formatada como no WhatsApp.",
+  "charWarning": "Mensagem longa — pode ser dividida no WhatsApp",
+  "mobileTab": {
+    "editor": "Editor",
+    "preview": "Prévia"
+  },
+  "toolbar": {
+    "bold": "Negrito",
+    "italic": "Itálico",
+    "strikethrough": "Rasurado",
+    "inlineCode": "Código inline",
+    "codeBlock": "Bloco mono",
+    "quote": "Citação",
+    "bulletList": "Lista •",
+    "numberedList": "Lista 1.",
+    "text": "texto"
+  },
+  "seo": {
+    "title": "WApp Formatter — Formatador de Mensagens WhatsApp",
+    "description": "Formate suas mensagens do WhatsApp com negrito, itálico, rasurado, código e listas. Pré-visualização em tempo real. Grátis e sem cadastro.",
+    "keywords": "formatador whatsapp, negrito whatsapp, itálico whatsapp, formatar mensagem whatsapp"
+  }
+}

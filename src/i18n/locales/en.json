@@ -1,0 +1,38 @@
+{
+  "appName": "WApp Formatter",
+  "appTagline": "Format your messages before sending",
+  "appDescription": "Free tool to format WhatsApp messages with bold, italic, strikethrough, code and more. Real-time preview.",
+  "editorLabel": "Editor",
+  "previewLabel": "Preview",
+  "placeholder": "Type your message here...\n\nExamples:\n*bold* _italic_ ~strikethrough~\n`code` or ```code block```\n> quote\n- list\n1. numbered list",
+  "copy": "Copy message",
+  "copied": "Copied!",
+  "clear": "Clear",
+  "clearConfirm": "Clear everything?",
+  "characters": "characters",
+  "words": "words",
+  "historyTitle": "Recent history",
+  "emptyTitle": "Your message appears here",
+  "emptyDesc": "Type in the editor to see the preview formatted like WhatsApp.",
+  "charWarning": "Long message — may be split in WhatsApp",
+  "mobileTab": {
+    "editor": "Editor",
+    "preview": "Preview"
+  },
+  "toolbar": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "strikethrough": "Strikethrough",
+    "inlineCode": "Inline code",
+    "codeBlock": "Mono block",
+    "quote": "Quote",
+    "bulletList": "Bullet •",
+    "numberedList": "List 1.",
+    "text": "text"
+  },
+  "seo": {
+    "title": "WApp Formatter — WhatsApp Message Formatter",
+    "description": "Format your WhatsApp messages with bold, italic, strikethrough, code and lists. Real-time preview. Free, no sign-up required.",
+    "keywords": "whatsapp formatter, bold whatsapp, italic whatsapp, format whatsapp message"
+  }
+}

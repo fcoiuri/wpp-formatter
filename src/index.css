@@ -1,0 +1,112 @@
+@import 'tailwindcss';
+
+:root {
+  --wapp-green: #25d366;
+  --wapp-dark: #075e54;
+  --wapp-teal: #128c7e;
+  --wapp-chat-bg: #ece5dd;
+  --wapp-bubble: #dcf8c6;
+  --font-sora: 'Sora', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --wapp-chat-bg: #1a1410;
+    --wapp-bubble: #1f4030;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: var(--font-sora);
+  -webkit-font-smoothing: antialiased;
+  @apply bg-neutral-100 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100;
+}
+
+.bubble-content p {
+  margin: 0;
+}
+.bubble-content p + p {
+  margin-top: 4px;
+}
+.bubble-content strong {
+  font-weight: 600;
+}
+.bubble-content em {
+  font-style: italic;
+}
+.bubble-content s {
+  text-decoration: line-through;
+}
+.bubble-content code {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.bubble-content pre {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin: 4px 0;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+.bubble-content blockquote {
+  border-left: 3px solid #4caf50;
+  padding-left: 9px;
+  margin: 4px 0;
+  color: #444;
+}
+@media (prefers-color-scheme: dark) {
+  .bubble-content blockquote {
+    color: #aaa;
+  }
+  .bubble-content code {
+    background: rgba(255, 255, 255, 0.08);
+  }
+  .bubble-content pre {
+    background: rgba(255, 255, 255, 0.06);
+  }
+}
+.bubble-content ul {
+  padding-left: 18px;
+  margin: 3px 0;
+  list-style: disc;
+}
+.bubble-content ol {
+  padding-left: 20px;
+  margin: 3px 0;
+  list-style: decimal;
+}
+.bubble-content li {
+  margin: 2px 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.chat-bg {
+  background-color: #ece5dd !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .chat-bg {
+    background-color: #1a1410 !important;
+  }
+}
